@@ -15,20 +15,27 @@ module.exports = {
   projectName: "Boulos Documentation", // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: "Belimpex GDS",
+      
+      logo: {
+        alt: '',
+        src: 'img/favicon.png',
+      },
       items: [
         {
-          type: "doc",
-          docId: "intro",
-          position: "left",
-          label: "Tutorial",
+          type: 'doc',
+          docId: 'intro',
+          position: 'left',
+          label: 'Menu',
         },
-        { to: "https://boulos.ng", label: "Main Website", position: "left" },
+
+        {to: 'https://boulos.ng', label: 'Boulos', position: 'left'},
         {
-          href: "https://github.com/BigDevTemy/boulos_documentation",
-          label: "GitHub",
-          position: "left",
+          href: 'https://github.com/BigDevTemy/boulos_documentation',
+          label: 'GitHub',
+          position: 'left',
+
         },
+        
       ],
     },
     footer: {

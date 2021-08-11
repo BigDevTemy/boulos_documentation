@@ -18,11 +18,25 @@ module.exports = {
   tutorialSidebar: [
     {
       type: 'category',
-      label: 'bpl',
+      label: 'Bpl',
       items: ['intro','gradelist','customerlists','production_forcast',{type: 'category',
       label: 'Factory',items:['Factory/barcode_creation','Factory/factory_exit']}],
     },
-    
+    {
+      type: 'category',
+      label: 'Sales',
+      items: ['Sales/bill_of_landing'],
+    },
+    {
+      type: 'category',
+      label: 'Report',
+      items: ['Report/general'],
+    },
+    {
+      type: 'category',
+      label: 'User',
+      items: ['User/profile'],
+    },
   ],
   
    

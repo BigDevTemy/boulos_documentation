@@ -11,6 +11,7 @@ This is also known as barcode creation or Jumboreel creation. It is used in the 
 
 The following fields are required when creating barcodes for Jumboreels.
 
+```
 - Customer
 - Product
 - Core Diameter
@@ -18,6 +19,7 @@ The following fields are required when creating barcodes for Jumboreels.
 - Hardroll Cart
 - Joints
 - Weight (kg)
+```
 
 A combination of the date and paper machine, provided in the input fields will automatically generate a barcode for that Jumboreel product along with a barcode count in sequential order.  
 For example, production is created with a date of 2021-05-27 and a PM of 2, the barcode will be:  
@@ -47,9 +49,11 @@ The user will need to specify the product which requires a particular Jumboreel.
 
 This refers to the location in which the Jumboreel is being created. Currently, we have three locations which are:
 
+```
 1. Paper Machine (PM) 2
 2. Paper Machine (PM) 3
 3. Gambini
+```
 
 But, Jumboreel production currently happens in either PM 2 or PM3. At least one must be specified.
 
@@ -57,9 +61,13 @@ But, Jumboreel production currently happens in either PM 2 or PM3. At least one 
 
 This specifies a list of letters between A and L and is used to generate the Hardroll number. The Hardroll number is obtained by a combination of:
 
+```
 1. Paper Machine (M2/M3)
 2. Date of creation in YMD format. For example, 210527 signifying May 27th, 2021.
-3. Hardroll Cart. The hardroll cart count increases for every new entry. For example, two productions were created on the 27th May 2021 in PM2 and a hardroll cart of A. The hardroll numbers generated will be: M2210527-1A and M2210527-2A respectively.
+3. Hardroll Cart.
+```
+
+The hardroll cart count increases for every new entry. For example, two productions were created on the 27th May 2021 in PM2 and a hardroll cart of A. The hardroll numbers generated will be: M2210527-1A and M2210527-2A respectively.
 
 ### Joints
 
@@ -67,6 +75,8 @@ This specifies a list of letters between A and L and is used to generate the Har
 
 ## Result of Factory Production
 
+```
 1. Selects the Customer ID from the `/bpl_customers` table based on the Customer Name selected and adds the ID to the `/bpl_production` table.
 2. Selects the Product ID from the `/bpl_products` table based on the Product Name selected and adds the ID to the `/bpl_production` table.
 3. The data is inserted into the `/bpl_production` table.
+```

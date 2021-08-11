@@ -11,7 +11,6 @@ function HomepageHeader() {
   return (
     <header className={clsx("hero hero--primary", styles.heroBanner)}>
       <div className="container">
-
         <h1 style={{ fontSize: 35, fontFamily: "sans-serif" }}>Belimpex Documentation</h1>
         <p style={{ fontSize: 18 }}>documentation page for Bpl Software</p>
         <Link to="/">Introduction Page</Link>

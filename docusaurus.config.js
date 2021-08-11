@@ -14,24 +14,26 @@ module.exports = {
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: '',
+        src: 'img/favicon.png',
       },
       items: [
         {
           type: 'doc',
           docId: 'intro',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Menu',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+
+        {to: 'https://boulos.ng', label: 'Boulos', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/BigDevTemy/boulos_documentation',
           label: 'GitHub',
-          position: 'right',
+          position: 'left',
         },
+        
       ],
     },
     footer: {

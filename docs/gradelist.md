@@ -2,35 +2,63 @@
 sidebar_position: 2
 sidebar_label: 'Grade List'
 ---
+# Grade List
 
-# Tutorial Intro
+This module is used to create new Grade.  
 
-Let's discover **Docusaurus in less than 5 minutes**.
+At Default, the page automatically loads all grades already created.
 
-## Getting Started
+## User Access Level.
 
-Get started by **creating a new site**.
+The below user level are granted access level:
+```
+- Admin
+- B.P.L Production and Store User
+- B.P.L Production User
+- B.P.L Customer Entry & Reports User
+- B.P.L Production Modify Use
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**:
-
-```shell
-npx @docusaurus/init@latest init my-website classic
 ```
 
-## Start your site
+## Navigation Button
+* New
 
-Run the development server:
-
-```shell
-cd my-website
-
-npx docusaurus start
+### New 
+The following fields are required to create a new grade.  
 ```
+  - Grade Name
+  - Grade Type
+  - Grade
+```
+![Add Grade](https://boulos.ng/boulos_doc_images/addgrade.JPG)
 
-Your site starts at `http://localhost:3000`.
+#### Field Description. 
+ 
+   Grade Name  
 
-Open `docs/intro.md` and edit some lines: the site **reloads automatically** and display your changes.
+     This Text field contains/receive the name of the new Grade  from the users.
+    
+   Grade Type
+
+   ```
+    This Text field requires the Grade type classification for the new grade to be created.  
+
+    The naming convention or nomenclature of a grade type is dependent on the Grade name.
+
+    The Grade name is created from the first letters of Grade type words.
+
+    For Instance:  
+     
+    A Grade name **Premium Bathroom Tissue**  will have a Grade Type **PBT**
+
+   ```
+
+  Grade  
+
+   ```
+    This Text Field requires the Grade classification of the newly created product from the user.
+    This ranges from **Economy, Premium , Special and Unleased**.
+
+  ```
+ ****Finally**, The Save Button is then used to commit the inputted data for Grade Type Creation.**
+

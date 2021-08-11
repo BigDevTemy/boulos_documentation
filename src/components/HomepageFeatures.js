@@ -6,7 +6,6 @@ const FeatureList = [
   {
     title: "Easy to Use",
     Svg: require("../../static/img/undraw_docusaurus_mountain.svg").default,
-    description: <>This documentatio</>,
   },
   {
     title: "Focus on What Matters",
@@ -19,6 +18,7 @@ const FeatureList = [
     ),
   },
   {
+
     title: "Powered by React",
     Svg: require("../../static/img/undraw_docusaurus_react.svg").default,
     description: (

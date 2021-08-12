@@ -7,6 +7,8 @@ sidebar_label: "Barcode Creation"
 
 This is also known as barcode creation or Jumboreel creation. It is used in the factory to generate barcodes for Jumboreels.
 
+`URL: /bil/bpl_production#new`
+
 ## Creating Barcodes for Jumboreels
 
 The following fields are required when creating barcodes for Jumboreels.
@@ -75,8 +77,6 @@ The hardroll cart count increases for every new entry. For example, two producti
 
 ## Result of Factory Production
 
-```
 1. Selects the Customer ID from the `/bpl_customers` table based on the Customer Name selected and adds the ID to the `/bpl_production` table.
 2. Selects the Product ID from the `/bpl_products` table based on the Product Name selected and adds the ID to the `/bpl_production` table.
 3. The data is inserted into the `/bpl_production` table.
-```

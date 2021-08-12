@@ -24,7 +24,20 @@ module.exports = {
         "gradelist",
         "customerlists",
         "production_forcast",
-        { type: "category", label: "Factory", items: ["Factory/Barcode-Creation", "Factory/factory_exit"] },
+        {
+          type: "category",
+          label: "Factory",
+          items: ["Factory/Barcode-Creation", "Factory/factory_exit"],
+        },
+        {
+          type: "category",
+          label: "Inventory",
+          items: [
+            "Inventory/store_entrance",
+            "Inventory/store_exit",
+            "Inventory/store_transfer",
+          ],
+        },
       ],
     },
     {

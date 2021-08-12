@@ -26,8 +26,8 @@ module.exports = {
           docId: 'intro',
           position: 'left',
           label: 'Menu',
-        },
-
+        },        
+        {to: '/blog', label: 'Database Documentation', position: 'right'},
         {to: 'https://boulos.ng', label: 'Boulos', position: 'left'},
         {
           href: 'https://github.com/BigDevTemy/boulos_documentation',

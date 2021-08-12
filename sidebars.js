@@ -27,7 +27,7 @@ module.exports = {
         {
           type: "category",
           label: "Factory",
-          items: ["Factory/Barcode-Creation", "Factory/factory_exit"],
+          items: ["Factory/Barcode-Creation", "Factory/Factory-Exit"],
         },
         {
           type: "category",

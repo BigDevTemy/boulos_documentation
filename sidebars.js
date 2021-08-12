@@ -38,6 +38,8 @@ module.exports = {
             "Inventory/store_transfer",
           ],
         },
+        "account",
+        "users",
       ],
     },
     {

@@ -26,7 +26,7 @@ This module (STORE ENTRANCE) is created to track the number of the products that
 
 ## Field Description
 
-The Store Entrance Modules Contains the following Fields
+The Store Entrance Module Contains the following Fields
 
 - User
    ````

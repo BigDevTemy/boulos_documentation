@@ -38,6 +38,11 @@ module.exports = {
             "Inventory/store_transfer",
           ],
         },
+        {
+          type: "category",
+          label: "Sales",
+          items: ["bpl_sales/order", "bpl_sales/profoma_invoice","bpl_sales/profoma_update","bpl_sales/packing_list","bpl_sales/export_payment","bpl_sales/payment_terms","bpl_sales/bill_of_lading"],
+        },
         "account",
         "users",
       ],

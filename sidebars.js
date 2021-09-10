@@ -55,7 +55,13 @@ module.exports = {
     {
       type: "category",
       label: "Report",
-      items: ["Report/general"],
+      items: ["Report/general",
+      {
+        type: "category",
+        label: "BPL",
+        items: ["Report/BPL/StockRemaining"]
+      },
+      ],
     },
     {
       type: "category",

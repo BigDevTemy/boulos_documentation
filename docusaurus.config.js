@@ -15,32 +15,25 @@ module.exports = {
   projectName: "Boulos Documentation", // Usually your repo name.
   themeConfig: {
     navbar: {
-      
       logo: {
-        alt: '',
-        src: 'img/favicon.png',
+        alt: "",
+        src: "img/favicon.png",
       },
       items: [
         {
-          type: 'doc',
-          docId: 'intro',
-          position: 'left',
-          label: 'Menu',
-        },        
-        {to: '/blog', label: 'Database Documentation', position: 'right'},
-        {to: 'https://boulos.ng', label: 'Boulos', position: 'left'},
-        {
-          href: 'https://github.com/BigDevTemy/boulos_documentation',
-          label: 'GitHub',
-          position: 'left',
-
+          type: "doc",
+          docId: "intro",
+          position: "left",
+          label: "Menu",
         },
-        
+        { to: "/blog", label: "Database Documentation", position: "right" },
+        { to: "https://boulos.ng", label: "Boulos", position: "left" },
+        {
+          href: "https://github.com/BigDevTemy/boulos_documentation",
+          label: "GitHub",
+          position: "left",
+        },
       ],
-    },
-    footer: {
-      style: "dark",
-      copyright: `Copyright © ${new Date().getFullYear()} Belimpex Global Data System`,
     },
     prism: {
       theme: lightCodeTheme,
